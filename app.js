@@ -29,17 +29,17 @@ const main = async() =>{
             break;
             
             case '2':
-              console.log(tareas.listarTareas);
+              // console.log(tareas.listarTareas);
+              tareas.ListadoCompleto;
             break;
         }
 
         GuardarDB( tareas.listarTareas );
-
+        console.log('\n');
         await Pausa();
 
 
     }while(opt !== '0')  
-
 
 }
 
