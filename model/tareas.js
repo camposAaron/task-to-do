@@ -15,11 +15,15 @@ class Tareas{
     get listarTareas (){
         const listado = [];
         Object.keys(this._listado).forEach((value)=>{
-            const tarea = this._listado[value];
+            const tarea =  this._listado[value];
             listado.push(tarea);
         })
 
-        return listado
+        return listado;
+    }
+
+    set establecerTareas(tareas){
+        this._listado = tareas;
     }
 }
 

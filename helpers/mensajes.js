@@ -1,7 +1,6 @@
 const mostrarMenu = () =>{
-    console.clear()
-   
-   
+   console.clear()
+      
    return new Promise((resolve)=>{
         console.log('========================'.green)
         console.log(' Seleccione una opcion  '.green)
