@@ -64,16 +64,11 @@ const main = async() => {
         
         }
 
-
         guardarDB( tareas.listadoArr );
 
         await pausa();
 
     } while( opt !== '0' );
-
-
-    // pausa();
-
 }
 
 
